@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/products/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="login.html">Login</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+
+            </ul>
+        </div>
+   </section>
+
+   <section id="form">
+    <div class="container">
+<fieldset>
+    <legend>User Information</legend>
+    <form id="myform" action="#" autocomplete="off" onsubmit="return check()">
+        <table cellpadding="10" cellspacing="10">
+            <tr>
+                <td><input type="text" id="name" placeholder="Enter Your name"> <span id="name1"></span></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="password" placeholder="Enter Your password"><span id="pass1"></span></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="conpass" placeholder="Enter Your Confirm password"> <span
+                        id="conpass1"></span></td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" placeholder="Enter Your Email"> <span id="email1"></span></td>
+            </tr>
+            <tr>
+                <td><input type="submit" id="button" value="Submit"> <span id="button1"></span></td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</div>
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
